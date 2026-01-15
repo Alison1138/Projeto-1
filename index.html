@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de séries</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><!-- TODO: nome do site, ex: "Séries+Tay" -->Play Séries</h1>
+
+            <nav>
+                <div class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#series">Séries</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção destaque -->
+    <section id="inicio" class="secao destaque">
+        <div class="container destaque-conteudo">
+            <div class="destaque-texto">
+                <h2><!-- TODO: título de destaque, ex: "Descubra novas séries para maratonar" --> Descubra novas séries para maratonar</h2>
+                <p><!-- TODO: texto chamativo explicando o objetivo da página --></p>
+
+                <!-- Filtros visuais de gêneros (não precisam funcionar) -->
+                <div class="filtros">
+                    <!-- TODO: trocar ou adicionar gêneros -->
+                    <button class="filtro">Todos</button>
+                    <button class="filtro">Ação</button> 
+                    <button class="filtro">Comédia</button>
+                    <button class="filtro">Drama</button>
+                </div>
+            </div>
+
+            <div class="destaque-imagem">
+                <!-- TODO: trocar por uma imagem relacionada a séries -->
+                <img src="https://bancodeseries.com.br/images/posters/7553.jpg" width="10%"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Dexter_season_6_DVD.jpg/250px-Dexter_season_6_DVD.jpg" width="10%"> <img src="https://m.media-amazon.com/images/I/71LGGcQHzqL._AC_UF894,1000_QL80_.jpg" width="12%">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção catálogo de séries -->
+    <section id="series" class="secao secao-cinza">
+        <div class="container">
+            <h2>Séries em destaque</h2>
+
+            <div class="carrossel-container">
+            <div class="grid-series">
+                <!-- Card 1 -->
+                <div class="card-serie">
+                    <!-- TODO: trocar os dados da série -->
+                    <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/4be077af-2b25-4a15-993a-1b615e5d1345/compose?aspectRatio=1.78&format=webp&width=1200" alt="" width="30%">
+                    <h3>Prison Break</h3>
+                    <p class="genero">Gênero: Drama <!-- ex: Ficção científica --></p>
+                    <p class="descricao">
+                        <!-- Pequena descrição da série -->
+                        Michael Scofield é um homem desesperado em uma situação desesperada. Seu irmão, Lincoln Burrows, foi condenado por um crime que não cometeu e colocado no corredor da morte. Michael rende um banco para conseguir ser encarcerado junto ao irmão na penitenciária estadual de Fox River e coloca em ação uma série de planos elaborados para permitir a fuga de Lincoln e provar sua inocência. Mesmo fora da prisão, seus perigos não acabam -- os irmãos precisam fugir para evitar a recaptura e lutar contra uma intricada conspiração policial que coloca a vida de todo mundo em risco.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card-serie">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png" alt="" width="30%">
+                    <h3>Stranger Things</h3>
+                    <p class="genero">Gênero: Terror <!-- ... --></p>
+                    <p class="descricao">
+                        <!-- descrição -->
+                         Na década de 1980, um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card-serie">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/33d554c8ea607e6dd5f01767fd0d7053954de54efa315100c2ed16650253f019.jpg" alt="Nome da série" width="30%">
+                    <h3>IT: Bem vindos a Derry</h3>
+                    <p class="genero">Gênero: Terror <!-- ... --></p>
+                    <p class="descricao">
+                        <!-- descrição -->
+                         Na década de 1960, eventos estranhos acontecem na cidade de Derry ligados ao palhaço Pennywise, uma figura misteriosa que assombra o local.
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card-serie">
+                    <img src="https://cdn.observatoriodocinema.com.br/2024/09/tulsa-king-poster.jpg" alt="Nome da série" width="30%">
+                    <h3>Tulsa King</h3>
+                    <p class="genero">Gênero: Drama<!-- ... --></p>
+                    <p class="descricao">
+                        <!-- descrição -->
+                        O mafioso Dwight Manfredi é libertado da prisão após 25 anos e enviado por seu chefe para abrir uma loja em Tulsa, Oklahoma. Percebendo que sua família mafiosa pode não ter seus melhores interesses em mente, Dwight lentamente planeja seu retorno.
+                    </p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card-serie">
+                    <img src="https://beam-images.warnermediacdn.com/2025-03/the-last-of-us-s2-og-image.jpg?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com" alt="Nome da série" width="10%">
+                    <h3>The Last of Us</h3>
+                    <p class="genero">Gênero: Drama<!-- ... --></p>
+                    <p class="descricao">
+                        <!-- descrição -->
+                        Joel, um sobrevivente duro e cínico, e a jovem e impetuosa Ellie se conectam pela dificuldade do mundo em que vivem. Juntos, eles enfrentam circunstâncias brutais e monstros impiedosos durante uma difícil jornada pelos EUA após um surto apocalíptico.
+                    </p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card-serie">
+                    <img src="https://i.ytimg.com/vi/E3l4mIMzApU/maxresdefault.jpg" alt="Nome da série" width="10%">
+                    <h3>O Mandaloriano</h3>
+                    <p class="genero">Gênero: Ação<!-- ... --></p>
+                    <p class="descricao">
+                        <!-- descrição -->
+                        Din Djarin é um guerreiro solitário que trabalha como caçador de recompensa. Ele embarca em uma jornada pelos territórios esquecidos da galáxia, logo após a queda do Império e antes da criação da temida Primeira Ordem.
+                    </p>
+                </div>
+                </div>
+
+
+
+
+                <!-- TODO: opcional - pedir pra criarem mais 2 ou 3 cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="secao">
+        <div class="container">
+            <h2>Sobre o catálogo</h2>
+            <p>
+                <!-- TODO: explicar em 1 ou 2 parágrafos o objetivo do site.
+                     Ex: projeto de estudo de HTML e CSS, recomendações pessoais, etc. -->
+                    Projeto de estudos de HTML e CSS.
+                     
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="secao secao-cinza">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Quer enviar sugestões de séries?</p>
+            <ul class="lista-contato">
+                <li><strong>Email: alisonalvesribeiro720@gamil.com</strong> <!-- TODO: email fictício ou real --></li>
+                <li><strong>Instagram: alison_alves_ribeiro</strong> <!-- TODO: @user ou link --></li>
+                <li><strong>Outra rede:</strong> <!-- TODO: opcional --></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - <!-- TODO: nome do site ou do aluno -->Play Séries. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
